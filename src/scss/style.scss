@@ -1,0 +1,32 @@
+// -------------------------------------------------------------------------
+// MAIN SCSS FILES - IMPORTS EVERYOTHER SCSS FILE IN
+// -------------------------------------------------------------------------
+/*
+** Boostrap 5 Gulp init Tmeplate
+** Author: olowott
+** url: olowott.com
+*/
+
+//Variables which can  be changed
+@import 'variables';
+
+//vendors
+@import 'vendors';
+
+// //mixins and functions
+// @import 'mixins';
+// @import 'functions';
+// @import 'utilities';
+
+// //Layout
+// @import 'layout';
+
+// //Components
+// @import 'components';
+
+// //media and Typography
+// @import 'typography';
+// @import 'media';
+
+// //forms
+// @import 'forms';

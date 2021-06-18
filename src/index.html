@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @@include("./_head.html", { 
+    "path": ".", 
+    "title": "Bootstrap 5 Gulp Template" 
+    })
+  </head>
+  <body>
+    <!-- START NAV SECTION -->
+    @@include(
+        "./_nav.html", { 
+        "path": ".", 
+    })
+    <!-- END NAV SECTION -->
+    <!-- MAIN PAGE SECTION -->
+    <main>
+      <section class="vh-100 d-flex align-items-center justify-content-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 mb-4 text-center align-items-center justify-content-between">
+              <div>
+                <h1 class="mt-5">
+                  Welcome to
+                  <span class="font-weight-bolder text-primary">
+                    Bootstrap 5 Gulp Starter Template</span>
+                </h1>
+                <p class="lead my-4">
+                  Nothing here, just you starting off with a simple hello.
+                </p>
+                <a class="btn btn-primary" href="#">View Pages</a>
+                <div>
+                    <img
+                      src="./assets/images/pexels-mockupeditorcom-205316.jpg"
+                      alt="pexel images"
+                      class="img-fluid"
+                    />
+                  </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- MAIN PAGE SECTION -->
+    <!-- START FOOTER SECTION -->
+    @@include("./_footer.html", { "path": ".", })
+    <!-- END FOOTER SECTION -->
+
+    <!-- SCRIPTS  -->
+    @@include('./_scripts.html', { "path":"." })
+  </body>
+</html>
